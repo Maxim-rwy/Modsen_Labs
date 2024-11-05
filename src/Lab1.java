@@ -1,8 +1,4 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-
-public class Main {
+public class Lab1 {
     public static void palindromeCheck(int x){
         boolean answer;
         String numberStr = String.valueOf(x);
