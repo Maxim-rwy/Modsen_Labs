@@ -23,8 +23,8 @@ class Lab9 {
 
     public static void main(String[] args) {
         Lab9 solution = new Lab9();
-        System.out.println("Output: " + solution.longestValidParentheses("(()"));       // Ожидаемый вывод: 2
-        System.out.println("Output: " + solution.longestValidParentheses(")()())"));   // Ожидаемый вывод: 4
-        System.out.println("Output: " + solution.longestValidParentheses(""));         // Ожидаемый вывод: 0
+        System.out.println("Output: " + solution.longestValidParentheses("(()"));
+        System.out.println("Output: " + solution.longestValidParentheses(")()())"));
+        System.out.println("Output: " + solution.longestValidParentheses(""));
     }
 }
